@@ -6,7 +6,7 @@ const diesel = 0
 const resposta = 0
 
 while (resposta !== 4) {
-      resposta = Number(input("escolha seu combustível"))
+      resposta = Number(input("Escolha o seu combustivel"))
       if (resposta === 1) {
             alcool++
       } else if(resposta === 2) {
